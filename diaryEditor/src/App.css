@@ -1,0 +1,28 @@
+.diaryEditor{
+  border: 1px solid gray;
+  text-align: center;
+  padding: 20px;
+}
+
+.diaryEditor input,
+textarea {
+  margin-bottom: 20px;
+  width: 500px;
+  padding: 10px;
+}
+
+.diaryEditor textarea{
+  height: 150px;
+}
+
+.diaryEditor select{
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.diaryEditor button{
+  width: 500x;
+  padding: 10px;
+  cursor: pointer;
+}
