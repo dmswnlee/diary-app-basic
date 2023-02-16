@@ -1,0 +1,62 @@
+.diaryEditor{
+  border: 1px solid gray;
+  text-align: center;
+  padding: 20px;
+}
+
+.diaryEditor input,
+textarea {
+  margin-bottom: 20px;
+  width: 500px;
+  padding: 10px;
+}
+
+.diaryEditor textarea{
+  height: 150px;
+}
+
+.diaryEditor select{
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.diaryEditor button{
+  width: 500x;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+/* List */
+.diaryList{
+  border: 1px solid grey;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.diaryList h2{
+  text-align: center;
+}
+
+.diaryItem{
+  background-color: rgb(240,240,240);
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.diaryItem .info{
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.diaryItem .date{
+  color: grey;
+}
+
+.diaryItem .content{
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
